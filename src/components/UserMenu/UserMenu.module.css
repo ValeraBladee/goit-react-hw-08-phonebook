@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 0;
+}
+.userEmail {
+  display: none;
+}
+.button {
+  height: 25px;
+  width: 80px;
+  padding: 5px 0;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  color: #6938ce;
+  background-color: transparent;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.7) 0px 2px 16px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .userEmail {
+    display: block;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #6938ce;
+  }
+}
